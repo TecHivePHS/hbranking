@@ -2,7 +2,7 @@ print("""
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Update count: 2</title>
+    <title>Update count: 3</title>
   </head>
   <body>
     <!-- (A) JS -->

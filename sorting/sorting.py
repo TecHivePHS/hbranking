@@ -1,3 +1,17 @@
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+  def __init__(self):
+    pass
+  @abstractmethod
+  def info(self):
+    pass
+
+class Quadrilateral(Shape):
+  def __init__(self, angles):
+    self.sides = 4
+    self.angles = angles
+
 class Scout:
   team = 4099
   def __init__(self, name, subteam):

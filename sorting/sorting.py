@@ -11,7 +11,7 @@ class PitScout(Scout):
     super().__init__(name, subteam)
     self.group = group
   def display(): # Overriden
-    print(f"{self.name} is a scout.")
+    print(f"{self.name} is a pit scout.")
 
 scout_one = new Scout("John", "strategy")
 scout_two = new Scout("Nhoj", "business")

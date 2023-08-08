@@ -4,17 +4,14 @@ class Scout:
     self.name = name
     self.subteam = subteam
   def display():
-    print(f"Name: {self.name}\n
-            Subteam: {self.subteam}")
+    print(f"{self.name} is a scout.")
 
 class PitScout(Scout):
   def __init__(self, name, subteam, group):
     super().__init__(name, subteam)
     self.group = group
-  def display():
-    print(f"Name: {self.name}\n
-            Subteam: {self.subteam}\n
-            Group: {self.group}")
+  def display(): # Overriden
+    print(f"{self.name} is a scout.")
 
 scout_one = new Scout("John", "strategy")
 scout_two = new Scout("Nhoj", "business")
